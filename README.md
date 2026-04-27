@@ -196,6 +196,7 @@ Résultat obtenu :
 [+] libc.so trouvée
 [+] recv trouvée à : 0x...
 ```
+<img width="954" height="369" alt="image" src="https://github.com/user-attachments/assets/0281f531-c35e-43cf-ba32-5ac1a372d53f" />
 
 ## 🖥️ Console interactive Frida
 
@@ -221,6 +222,7 @@ Process.platform  => linux
 Process.mainModule => app_process64
 Java.available    => true
 ```
+<img width="954" height="537" alt="image" src="https://github.com/user-attachments/assets/deb98b5e-ef7c-4daf-8899-6d110a6d98db" />
 
 ## 🌐 Hook réseau
 
@@ -245,6 +247,7 @@ Commande utilisée :
 ```powershell
 & "$env:LOCALAPPDATA\Programs\Python\Python312\Scripts\frida.exe" -U -f com.android.settings -l hook_network.js
 ```
+<img width="958" height="482" alt="image" src="https://github.com/user-attachments/assets/40289843-44eb-40df-b348-333b31933dbb" />
 
 ## 📂 Hook fichiers natifs
 
@@ -267,6 +270,7 @@ Commande utilisée :
 ```powershell
 & "$env:LOCALAPPDATA\Programs\Python\Python312\Scripts\frida.exe" -U -f com.android.settings -l hook_file.js
 ```
+<img width="960" height="489" alt="image" src="https://github.com/user-attachments/assets/27442abd-1867-44a6-826d-15698dc6e792" />
 
 ## 💾 Hook SharedPreferences
 
@@ -292,6 +296,7 @@ Commande utilisée :
 ```powershell
 & "$env:LOCALAPPDATA\Programs\Python\Python312\Scripts\frida.exe" -U -f com.android.settings -l hook_prefs.js
 ```
+<img width="960" height="319" alt="image" src="https://github.com/user-attachments/assets/5f4f764b-9c14-4146-8ffe-e7c23cbb5f47" />
 
 ## 🛡️ Hook Debug
 
@@ -365,6 +370,7 @@ Résultats observés :
 [File][new] chemin : /system/etc/security/cacerts
 [File][new] chemin : /data/user_de/0/com.android.settings/shared_prefs/battery_fix_prefs.xml.bak
 ```
+<img width="953" height="543" alt="image" src="https://github.com/user-attachments/assets/338d8ec8-ac42-44d5-b885-d4a48128c8a7" />
 
 ## 🔍 Résultats obtenus
 
@@ -387,5 +393,5 @@ Ce travail montre que Frida est un outil très utile pour compléter l’analyse
 
 ## 👨‍💻 Auteur
 
-Halim  
+Halima BADR 
 ENSA Marrakech — Filière GCDSTE
